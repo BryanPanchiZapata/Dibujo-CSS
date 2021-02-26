@@ -1,0 +1,84 @@
+:root{
+    --brown-dark-bear: #C68D6D;
+    --brown-light-bear: #DD9F80;
+    --yellow-bear: #FFDAAA;
+    --inner-ear: #FFC477;
+    --nose-bear: #935B45;
+    --eyes-bear: #57565C;
+    --sky-bear: #9FF6FF;
+    --sky-dark-bear: #7DE7FF;
+    --sky-light-bear: #CCF8FF;
+}
+
+.container{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    background: rgb(253, 249, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+
+.head{
+    border-radius: 50%;
+    width: 232px;
+    height: 200px;
+    background: var(--brown-light-bear);
+    position: relative;
+}
+
+.eye{
+    height: 18px;
+    width: 13px;
+    border-radius: 5px;
+    background: var(--eyes-bear);
+    position: absolute;
+}
+.eye.left{
+    top: 80px;
+    left: 60px;
+}
+
+.eye.right{
+    top: 80px;
+    right: 60px;
+}
+
+.mood{
+    border-radius: 50%;
+    background: var(--yellow-bear);
+    width: 45%;
+    height: 40%;
+    top: 105px;
+    left: 62px;
+    position: relative;
+}
+.noise{
+    background: var(--nose-bear);
+    border-radius: 50%;
+    width: 17%;
+    height: 18%;
+    top: 24px;
+    left: 93px;
+    position: relative;
+}
+
+.ear{
+    background: var(--brown-light-bear);
+    border-radius: 50%;
+    width: 45%;
+    height: 55%;
+    position: relative;
+}
+.ear.left{
+    bottom: 150px;
+    right: 30px;
+}
+.ear.right{
+    bottom: 257px;
+    left: 162px;
+}
+
